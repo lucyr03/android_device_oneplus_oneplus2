@@ -55,8 +55,8 @@ write /sys/module/lpm_levels/system/a57/cpu7/retention/idle_enabled 1
 write /sys/module/lpm_levels/system/a53/a53-l2-retention/idle_enabled 1
 write /sys/module/lpm_levels/system/a57/a57-l2-retention/idle_enabled 1
 
-# enable LPM
-write /sys/module/lpm_levels/parameters/sleep_disabled 0
+# Disable LPM
+write /sys/module/lpm_levels/parameters/sleep_disabled 1
 
 # configure governor settings for little cluster
 write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor interactive
