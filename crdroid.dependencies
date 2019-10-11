@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "crdroidandroid/android_device_oppo_common",
+    "target_path": "device/oppo/common"
+    "branch": "10.0"
+  },
+  {
+    "repository": "Pierre2324/AGK_android_kernel_oneplus_msm8994",
+    "target_path": "kernel/oneplus/msm8994"
+    "branch": "lineage-17.0"
+  },
+  {
+    "repository": "crdroidandroid/proprietary_vendor_oneplus",
+    "target_path": "vendor/oneplus",
+    "branch": "10.0"
+  }
+]
